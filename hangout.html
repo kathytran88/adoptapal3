@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adoptAPal.css">
+    <style>
+        body{
+            background-color: rgb(255, 226, 240);
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="company">
+        Adopt A Pal
+    </div>
+    <nav>
+        <ul>
+          <li>
+            <a href = "index.php">
+             <b> Adoption Center </b>
+            </a>
+          </li>
+    
+          <li>
+            <a href = "hangout.html">
+              <b> Hangout </b>
+             </a>
+          </li>
+            </ul>
+    </nav>
+    <div id="hangout">
+        <div id="welcomeDiv">
+            <h1 id="welcome"> "Welcome to your hangout!"</h1>
+        </div>
+       
+
+        <h3 id="instructions"> <i> Drag and drop to move your new pals! (Click to view their certificate!) </i></h3>
+
+
+        <div id="selectBackground">
+            <label for="setting"> Choose Album: </label><br>
+                    <select name="setting" id="setting">
+                        <option value="" data-code="plain.avif"> Select A Setting </option>
+                        <option value="cafe" data-name= "Café" data-code="cafe.avif"> Café </option>
+                        <option value="library"  data-name= "Library" data-code="library.avif"> Library </option>
+                        <option value="park" data-name= "Park" data-code="park.jpg"> Park </option>
+                        <option value="spring" data-name= "Spring Fling" data-code="spring.avif"> Spring Fling </option>
+                        <option value="summer" data-name= "Summer Splash" data-code="summer.webp"> Summer Splash </option>
+                        <option value="fall" data-name= "Fall Festival" data-code="fall.jpg"> Fall Festival </option>
+                        <option value="winter" data-name= "Winter Wonderland" data-code="winter.avif"> Winter Wonderland </option>
+                    </select>
+        </div>
+
+        <div id="area">
+            <button id="test"> test </button>
+        </div>
+    </div>
+
+    <script src="adoptAPal.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+cat,Price: $10.99,Color: White,Description: A cute white virtual plushie cat with a soft texture to brighten up your desktop.
+dog,Price: $12.99,Color: Brown,Description: A loyal brown virtual plushie dog that wags its tail when you interact with it on your desktop.
+unicorn,Price: $15.99,Color: Rainbow,Description: A magical rainbow unicorn virtual plushie that sparkles and adds magic to your desktop.
+bunny,Price: $9.99,Color: Pink,Description: A huggable pink virtual plushie bunny that hops around your desktop.
+hamster,Price: $8.99,Color: Golden,Description: A tiny golden hamster virtual plushie that scurries and plays on your desktop.
